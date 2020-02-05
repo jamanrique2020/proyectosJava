@@ -55,4 +55,13 @@ public class LLFunciones {
             System.out.println("Tu ropa está lista.");
         }
     }
+
+    //Setter y Getter
+    public int getTipoDeRopa() {
+        return TipoDeRopa;
+    }
+    
+    public void setTipoDeRopa(int TipoDeRopa){
+        this.TipoDeRopa = TipoDeRopa;
+    }
 }
